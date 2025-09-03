@@ -13,7 +13,7 @@ if mode != 'break':
 lc = string.ascii_lowercase                   # Alphabet in lowercase
 result = ''
 
-
+ 
 if mode == 'break': 
     key = 1
     for count in range(0,26):
