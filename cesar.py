@@ -1,11 +1,12 @@
 # Created By: Matheus Ribeiro
 # Name: César Cipher v1.0
 # Launch: 9/2/2025 - 10:58 AM
-# Latest: 9/2/2025 - 10:58 AM
+# Latest: 9/3/2025 -  6:08 PM
 # Description: A program for encryption, decryption and brake with César Cipher
 
 import string
 
+print('>'*10 + ' Welcome to César Cipher v1.0! ' + '<'*10)
 text = input('Text: ').lower()                # plaintext or ciphertext in lowercase for easily compare
 mode = input('Mode (enc/dec/break): ')  
 if mode != 'break':
